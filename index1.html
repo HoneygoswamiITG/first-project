@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Footer Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+    }
+
+    .inner-footer {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 130px;
+      height: auto;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .inner-footer div {
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .inner-footer h3 {
+      font-family: "DM Serif Display", serif;
+      font-weight: 400;
+      font-size: 25px;
+    }
+
+    #footer-mail {
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    #footer-mail input {
+      flex: 1;
+      padding: 8px;
+      border: none;
+      background: transparent;
+      color: #fff;
+      outline: none;
+    }
+
+    #footer-mail button {
+      background: #fff;
+      color: #000;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+
+    .footer-info span {
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 14px;
+    }
+
+    .footer-info input {
+      width: 20px;
+      height: 20px;
+    }
+
+    .inner {
+      display: flex;
+      justify-content: space-between;
+      padding: 80px 130px;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .inner-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      min-width: 200px;
+    }
+
+    .inner-inner ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .inner-inner ul li {
+      font-weight: 400;
+      font-size: 16px;
+      list-style-type: none;
+      margin-top: 10px;
+    }
+
+    .inner-inner h3 {
+      font-family: "DM Serif Display", serif;
+      font-weight: 400;
+      font-size: 28px;
+    }
+
+    .media-section {
+      height: auto;
+      padding: 20px 130px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .media-image img {
+      width: 270px;
+      height: auto;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .social-icons a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+      .inner, .inner-footer {
+        padding: 40px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .inner, .inner-footer, .media-section {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .inner-footer div {
+        max-width: 100%;
+      }
+      #footer-mail {
+        flex-direction: column;
+        gap: 10px;
+      }
+      #footer-mail button {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .inner, .inner-footer, .media-section {
+        padding: 20px;
+      }
+      .inner-inner h3, .inner-footer h3 {
+        font-size: 20px;
+      }
+      .inner-inner ul li {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Footer Section -->
+  <div class="inner-footer">
+    <div>
+      <h3>Subscribe</h3>
+      <form id="footer-mail">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <div class="footer-info">
+      <span>
+        <input type="checkbox"> Terms & Conditions
+      </span>
+      <span>
+        <input type="checkbox"> Privacy Policy
+      </span>
+    </div>
+  </div>
+
+  <div class="inner">
+    <div class="inner-inner">
+      <h3>About Us</h3>
+      <ul>
+        <li>Our Story</li>
+        <li>Careers</li>
+        <li>Blog</li>
+      </ul>
+    </div>
+    <div class="inner-inner">
+      <h3>Services</h3>
+      <ul>
+        <li>Web Design</li>
+        <li>Development</li>
+        <li>Marketing</li>
+      </ul>
+    </div>
+
+    <div class="inner-inner">
+      <h3>Support</h3>
+      <ul>
+        <li>Contact Us</li>
+        <li>FAQs</li>
+        <li>Help Center</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="media-section">
+    <div class="media-image">
+      <img src="https://dummyimage.com/270x24/fff/000&text=Your+Logo" alt="Logo">
+    </div>
+    <div class="social-icons">
+      <a href="#">🌐</a>
+      <a href="#">🐦</a>
+      <a href="#">📸</a>
+      <a href="#">▶</a>
+    </div>
+  </div>
+
+</body>
+</html>

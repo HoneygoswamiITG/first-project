@@ -1,0 +1,413 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: jost;
+}
+
+.font-weight {
+    font-weight: 600;
+}
+
+.font-size {
+    font-size: 16px;
+}
+
+.display-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-spacebetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 3px 55px;
+}
+
+.align-item-center {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: DM serif Display;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.announcement-bar {
+    background-color: #3B1E08;
+    color: #ffffff;
+    padding: 16px;
+    /* font-family: jost; */
+    gap: 10px;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.vector-btn {
+    background: transparent;
+    border: 1px #ffffff solid;
+    border-radius: 100px;
+    padding: 5px 20px;
+    color: #ffffff;
+    gap: 2px;
+}
+
+.vector-btn:hover {
+    background-color: #461509;
+    border: 1px #461509 solid;
+    transition: 0.5s ease-in-out;
+}
+
+.header {
+    position: absolute;
+    /* justify-content: center; */
+    color: #ffffff;
+    width: 100%;
+    border-bottom: 2px rgba(255, 255, 255, 0.2) solid;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.sassy-img {
+    padding-left: 137px;
+}
+
+.pages {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.front-page-img {
+    height: 691px;
+    margin: auto;
+    max-width: 1600px;
+}
+
+.pages ul {
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+    margin: auto;
+    max-width: 1600px;
+}
+
+.explare-now {
+    position: absolute;
+    color: #ffffff;
+    top: 355px;
+    left: 130px;
+}
+
+.btw-explore {
+    padding: 13px 24px;
+}
+
+.front-page-img img {
+    height: 100%;
+    max-height: 92vh;
+}
+
+.explare-now p {
+    padding-bottom: 18px;
+}
+
+.cards {
+    position: absolute;
+    top: 670px;
+    left: 130px;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    max-width: 1600px;
+}
+
+.card {
+    background-color: rgba(250, 246, 241, 1);
+    padding: 20px 40px;
+    width: 440px;
+    height: 80px;
+    display: flex;
+    gap: 10px;
+    align-items: anchor-center;
+}
+
+.card span {
+    font-size: 22px;
+}
+
+.best-sellers {
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: auto;
+    max-width: 1600px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 319px;
+    height: 390px;
+}
+
+.text {
+    text-align: center;
+}
+
+p.rupee {
+    font-weight: 600;
+}
+
+.shopall-btn a {
+    color: #000000;
+}
+
+.shopall-btn {
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+}
+
+.stars img {
+    width: 15px;
+    height: 14px;
+}
+
+.colors {
+    display: flex;
+    align-items: anchor-center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.colors img {
+    width: 20px;
+    height: 20px;
+}
+
+.vector-down {
+    display: flex;
+    align-items: anchor-center;
+    justify-content: flex-end;
+    gap: 528px;
+    padding-right: 90px;
+}
+
+.line-img {
+    width: 190px;
+    height: 3px;
+}
+
+div.form {
+    max-width: 1600px;
+    /* height: 1140px; */
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+form {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: fit-content;
+    padding: 40px;
+    margin: auto;
+    /* height: 150vh; */
+}
+
+.flex {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.align label {
+    display: flex;
+    gap: 12px;
+}
+
+input {
+    /* display: flex; */
+    border: 1px solid rgba(214, 213, 213, 1);
+}
+
+input[type=text],
+input[type=email],
+input[type=date],
+textarea {
+    display: flex;
+    width: 350px;
+    height: 46px;
+    border: 1px solid rgba(214, 213, 213, 1);
+}
+
+textarea {
+    width: 712px;
+    height: 79px;
+    color: rgba(126, 126, 126, 1);
+    padding: 15px;
+}
+
+.textarea {
+    margin-top: 24px;
+}
+
+.align label {
+    margin-top: 17px;
+}
+
+.align div {
+    display: flex;
+    gap: 12px;
+}
+
+.submit-btn {
+    margin-top: 24px;
+    padding: 13px 48px;
+    background: rgba(59, 30, 8, 1);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: rgb(34, 17, 5);
+    transition: 0.5s ease-in-out;
+}
+
+.formpara {
+    color: red;
+}
+
+.footer {
+    background-color: rgba(59, 30, 8, 1);
+    color: #ffffff;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.inner-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: anchor-center;
+    padding: 60px 130px;
+    height: 217px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.inner-footer div {
+    width: 100%;
+}
+
+.inner-footer h3 {
+    font-family: DM serif Display;
+    font-weight: 400;
+    font-size: 25px
+}
+
+#footer-mail {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: anchor-center;
+    margin-bottom: 15px;
+}
+
+#footer-mail img {
+    width: 3px;
+    height: 6px;
+}
+
+.footer-info span {
+    text-transform: uppercase;
+    display: flex;
+    align-items: anchor-center;
+    gap: 20px;
+}
+
+.footer-info input {
+    width: 20px;
+    height: 20px;
+}
+
+.inner-inner ul li {
+    font-weight: 400;
+    font-size: 16px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.inner-inner h3 {
+    font-family: DM serif Display;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 130px;
+    height: 389px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.inner-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.media-section {
+    height: 64px;
+    padding: 20px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.media-image img {
+    width: 270px;
+    height: 24px;
+}
